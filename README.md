@@ -43,6 +43,14 @@ Created a shell script (`restart_nginx.sh`) to restart the Nginx service and ver
 
 Run using:
 
-```bash
+bash
 chmod +x restart_nginx.sh
 ./restart_nginx.sh
+
+### Docker Commands
+
+bash
+sudo apt install docker.io -y
+sudo systemctl status docker
+sudo docker run hello-world
+sudo docker ps -a
